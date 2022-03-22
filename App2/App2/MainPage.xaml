@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.MainPage">
+
+    <StackLayout BackgroundColor="Green">
+        <Frame BackgroundColor="#A50D0D" Padding="24" CornerRadius="0">
+            <Label Text="Faites vos jeux !" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        
+        <Image x:Name="img1" />
+        <Image x:Name="img2"/>
+        <Button x:Name="button1"  Text="Roll the dices" Clicked="OnButtonClicked" BackgroundColor="Gold">
+        </Button>
+        <Label FontSize="70" VerticalOptions="FillAndExpand" VerticalTextAlignment="Center" x:Name="result" HorizontalOptions="CenterAndExpand" TextColor="Gold" />
+    </StackLayout>
+
+    
+</ContentPage>
